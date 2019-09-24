@@ -17,7 +17,7 @@ public class Clogin {
 		driver.findElement(By.id("LoginForm_username")).sendKeys("vamsikrishnaa");
 		driver.findElement(By.id("LoginForm_password")).sendKeys("Maveric12#");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
-		Actions actions=new Actions(driver);
+		Actions actions=new Actions(driver);//ioiojui90hyui09yu89
 		Thread.sleep(2000);
 		WebElement mainMenu=driver.findElement(By.xpath("(//a[@style='padding-right: 23px;'])[9]"));
 		actions.moveToElement(mainMenu);
