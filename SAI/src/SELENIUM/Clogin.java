@@ -14,6 +14,8 @@ public class Clogin {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\eclipse\\jee-2019-06\\eclipse\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.get("https://connect.maveric-systems.com");
+	
+		
 		driver.findElement(By.id("LoginForm_username")).sendKeys("vamsikrishnaa");
 		driver.findElement(By.id("LoginForm_password")).sendKeys("Maveric12#");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
